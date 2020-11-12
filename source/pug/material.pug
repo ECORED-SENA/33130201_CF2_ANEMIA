@@ -34,14 +34,11 @@ html(lang="es")
                         .card.wow.flipInX(data-wow-delay=".4s")
                             .card-body
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('1', 'Política Nacional en Seguridad Alimentaria y Nutricional (SAN)', 'main.html#page/tema-1/')
-                                    +navTemaItem('2', 'Derecho Humano a la alimentación como nuevo enfoque de la Política SAN', 'main.html#page/tema-2/')
-                                    +navTemaItem('3', 'Situación nutricional en Colombia', 'main.html#page/tema-3/')
-                                    +navTemaItem('4', 'Política de Estado para el Desarrollo Integral de la primera infancia de cero a siempre', 'main.html#page/tema-4/')
-                                    +navTemaItem('5', 'Política de Estado para el Desarrollo Integral de la primera infancia de cero a siempre', 'main.html#page/tema-4/')
-                                    +navTemaItem('6', 'Ruta integral de atención para la promoción y mantenimiento de la salud', 'main.html#page/tema-4/')
+                                    +navTemaItem('1', 'Nutrición por curso de vida', '#tema-1')
+                                    +navTemaItem('2', 'Salud y nutrición', '#tema-2')
+                                    +navTemaItem('3', 'Guías alimentarias para la población colombiana mayor de 2 años', '#tema-3')
+                                    +navTemaItem('4', 'Guías alimentarias basadas en alimentos para mujeres gestantes, madres en periodo de lactancia y niños y niñas menores de 2 años de Colombia', '#tema-4')
                                     +navTemaItem('glosario', 'Glosario', '#glosario')
-                                    +navTemaItem('complementario', 'Material complementario', '#anexos')
                                     +navTemaItem('referencias', 'Referencias bibliográficas', '#referencias')
 
 
@@ -54,15 +51,9 @@ html(lang="es")
             #tema-3
                 include pages/tema-3.pug
             #tema-4
-                include pages/tema-4.pug
-            #tema-5
-                include pages/tema-5.pug
-            #tema-6
-                include pages/tema-6.pug                                
+                include pages/tema-4.pug                             
             #glosario
                 include pages/glosario.pug
-            #anexos
-                include pages/material-complementario.pug
             #referencias
                 include pages/referencias.pug
 
